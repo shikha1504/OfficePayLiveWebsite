@@ -1,0 +1,252 @@
+.CreateInvoice-wrapper{
+    display:flex;
+}
+.CreateInvoice-sideBar{
+    width:15%;
+
+}
+.CreateInvoice-inner-wrapper {
+    width: 85%;
+    padding: 2rem;
+    padding-top: 0rem;
+}
+.CreateInvoice-addattacment a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline !important;
+    color: #1A69AE !important;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.CreateInvoice-addattacment {
+    position: relative;
+    margin-top: 5rem;
+}
+.Billing-section-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.Select-option-section {
+    width: 44%;
+}
+.Other-details ul {
+    list-style: none;
+
+}
+.Other-details ul li {
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+.Other-details ul li span input{
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 130px;  
+    height: 25px;
+}
+.Other-details ul li span {
+    float: right;
+    clear:both;
+    margin-left:20px;
+}
+.css-14el2xx-placeholder{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+color: #818181;
+}
+.css-b62m3t-container {
+    margin-top: 23px;
+}
+.css-1okebmr-indicatorSeparator {
+    display: none;
+}
+.css-tlfecz-indicatorContainer {
+    color: hsl(0deg 0% 0%) !important;
+}
+.Billing-section-create-invoice p {
+    margin-bottom: 0rem;
+}
+.Billing-section-create-invoice p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #656565;
+}
+.Billing-section-create-invoice {
+    margin-top: 22px;
+}
+table.Description-table {
+    width: 100%;
+    margin-top: 3rem;
+}
+.Description-table tbody tr td:nth-child(1){
+    width: 600px;
+}
+
+.Description-table tbody tr td:nth-child(1) input{ 
+width: 520px;
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #C2C2C2;
+box-sizing: border-box;
+border-radius: 50px;
+display: block;
+margin:unset
+}
+.Description-table tbody tr td input {
+    width: 80px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center !important;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.Description-table tbody{
+    border-bottom:1px solid rgba(0, 0, 0, 0.25);
+}
+.Description-table tbody td,.Description-table thead th{
+padding: 2.5rem;
+}
+.Description-table thead th:nth-child(1){
+    text-align: left;
+}
+.Description-table thead th{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.Description-table thead {
+    border-top:1px solid rgba(0, 0, 0, 0.25);;
+    border-bottom:1px solid rgba(0, 0, 0, 0.25);
+}
+.additem-btn-create-invoice{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #1A69AE;
+    border:none;
+    background-color: transparent;
+    margin-top:10rem;
+}
+.remove-btn-create-invoice button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    border:none;
+    background-color: transparent;
+    color: #FF0000;
+    right:0;
+}
+.remove-btn-create-invoice {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.removeItem-td{
+width:2%;
+padding:0rem !important;
+}
+.total-table{
+    width:100%;
+    margin-top:1rem;
+}
+.total-table tbody tr{
+    border-top:1px solid rgba(0, 0, 0, 0.25);
+}
+.total-table tbody tr td{
+    padding:2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+.total-table tbody tr td:nth-child(1){
+    padding-left:15px;
+}
+.total-table tbody tr td:nth-child(2){
+    text-align: end;
+    padding-right:25px;
+}
+.BankDetails-div{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.BankDetails-div li{
+font-family: 'Roboto' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 49px !important;
+color: #000000 !important;
+}
+.BankDetails-div li input{
+width: 262px;
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #C2C2C2;
+box-sizing: border-box;
+border-radius: 50px;
+}
+.BankDetails-div li span {
+    float: right;
+    clear: both;
+    margin-left: 20px;
+}
+.second-inputBankDetails{
+    width: 360px !important;
+height: 35px !important;
+}
+.InvoiceData-form-2-wrapper {
+    margin-top: 2rem;
+}
+
+.InvoiceData-form-2-wrapper p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+color: #5C5C5C;
+}
+.close-btn-wrapper button img{
+width:15px;
+height:15px;
+}

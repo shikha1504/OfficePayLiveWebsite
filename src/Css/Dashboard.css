@@ -1,0 +1,502 @@
+/* ===========DashBoard-SideBar================================================================================================================================================================================================================================================== */
+.dashboard-heading {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px !important;
+    padding-top: 25px !important;
+}
+.DashBoardPage-wrapper {
+    display: flex;
+    height: 100%;
+}
+.sidebar-wrapper{
+    width:15%;
+}
+
+.Dashboard-wrapper {
+    width: 85%;
+    padding: 2rem;
+    padding-top: 0px;
+}
+.dashboard-main-inner-content {
+    margin-top: 5rem;
+}
+.dashboard-sidebar-inner-wrapper {
+    background-color: #1A69AE;
+    height: 100%;
+    text-align: center;
+    padding: 3.5rem 0px;
+}
+.dashboard-sidebar-inner-wrapper img{
+    cursor: pointer;
+}
+.dashboard-sidebar-inner-wrapper ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    padding-left: 0;
+}
+.dashboard-sidebar-inner-wrapper ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: left;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.dashboard-sidebar-inner-wrapper ul li.selected {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #004077;
+    padding-left: 30px;
+
+}
+.dashboard-sidebar-inner-wrapper ul li{
+    font-size: 16px;
+    line-height: 24px;
+    color:#A8CBFF;
+}
+.dashboard-sidebar-inner-wrapper ul li img {
+    padding-right:15px;
+}
+
+/* ===========End================================================================================================================================================================================================================================================== */
+
+
+/* ===========DashBoard-MainPage================================================================================================================================================================================================================================================== */
+
+.dashboard-heading h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+color: #002C6D;
+}
+.dashboard-addproperty {
+    text-align: right;
+    margin-bottom: 4rem;
+}
+.dashboard-addproperty p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+text-align: right;
+text-decoration-line: underline;
+color: #1A69AE;
+cursor: pointer;
+}
+
+.Dashboard-figures {
+    display: flex;
+}
+.Dashboard-figures div {
+    width: 33%;
+    margin: 7px;
+}
+.Dashboard-figures div {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+    border-radius: 20px;
+    padding: 20px;
+}
+.Dashboard-figures div:nth-child(1){
+    background: #BAD8B3;
+}
+.Dashboard-figures div:nth-child(2){
+    background: #FEFFB3;
+}
+.Dashboard-figures div:nth-child(3){
+    background: #FFBFBF;
+}
+.Dashboard-figures div p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.Dashboard-figures div h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    color: #004077;
+    margin-top: 24px;
+}
+.dashboard-tabs {
+    margin-top: 3rem;
+}
+.dashboard-tabs-heading{
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.5);;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 0.5rem;
+}
+.dashboard-tabs-heading p{
+    width:33%;
+    padding: 0.5rem 2rem;
+    margin-bottom:0rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+.dashboard-tabs-heading img {
+    margin: 1rem;
+    margin-right: 2.5rem;
+}
+.dashboard-tabs-heading p.active{
+    background: #4A8ECB;
+    border-radius: 20px;
+    color:white;
+    font-weight: 400;
+}
+
+.Property-content-inner{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 0.75px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.dashboard-tab-content {
+    margin:1rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.Property-Data-Content-wrapper{
+cursor:pointer;
+}
+.Property-Data-Content-wrapper h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 46px;
+    color: rgba(0, 0, 0, 0.75);
+    cursor:pointer;
+    }
+.property-content-one {
+    display: flex;
+    align-items: center;
+}
+.property-content-one h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 10px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.75);
+}
+.property-content-one div {
+    padding: 3.5rem;
+}
+.property-content-one div h6{
+    margin-top:1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.property-content-two {
+    align-items: center;
+    align-self: center;
+}
+.property-content-two ul {
+    list-style: none;
+    margin-bottom:0rem;
+}
+.property-content-two ul li{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #000000;
+text-align:right;
+justify-content: end;
+line-height: 50px;
+}
+.property-content-two ul li:nth-child(1){
+    color:#FF0000;
+}
+.property-content-two ul li span{
+    margin-left:2rem;
+}
+
+/* ===========End================================================================================================================================================================================================================================================== */
+
+/* ===========Due Invoices Coloumn================================================================================================================================================================================================================================================== */
+.DueInvoices-content-inner {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-bottom: 2rem;
+}
+.DueInvoices-row-1, .DueInvoices-row-2,.DueInvoices-row-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DueInvoices-row1-col-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 29%;
+    align-items: center;
+}
+.DueInvoices-row1-col-1 h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 10px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.DueInvoices-content-inner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 6px;
+}
+  
+    .DueInvoices-row1-col-1 span{
+        color:black;
+        font-weight: 900;
+        font-size: 15px;
+        margin:.3rem;
+    }   
+    .DueInvoices-row2-col-1 h5 { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;  
+    color: #000000;
+    }
+    .DueInvoices-row2-col-1 h5 span{
+        color: #4A8ECB;
+        margin:0.2rem;
+        font-weight:600;
+    }
+    .DueInvoices-row2-col-2 h5 {
+        background: #FF0000;
+        border-radius: 50px;
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 10px;
+        padding: 6px 7px;
+    } 
+    .DueInvoices-row2-col-2 p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #3F3F3F;
+        justify-content: center;
+    }
+    .DueInvoices-row-3 div h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    }
+.DueInvoices-row-3 button{
+    margin:10px;
+
+}
+.DueInvoices-row-3 button:nth-child(1){
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #1A69AE;
+background-color: transparent;
+border:none;
+}
+.DueInvoices-row-3 button:nth-child(2) {
+    background: #1A69AE;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px 10px;
+}
+.DueInvoices-row-3 button:nth-child(3){
+border: 2px solid #4A8ECB;
+box-sizing: border-box;
+filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+border-radius: 5px;
+background-color: transparent;
+color: #1A69AE;
+font-weight: 400;
+font-size: 16px;
+}
+
+/* ===========End================================================================================================================================================================================================================================================== */
+
+/* ===========NOtification Data================================================================================================================================================================================================================================================== */
+
+.Notification-content-inner{
+background: rgba(255, 255, 255, 0.25);
+box-shadow: 0px 0px 18px rgb(0 0 0 / 25%);
+border-radius: 5px;
+display: flex;
+padding: 0rem .5rem 0rem .5rem;
+margin-bottom: 2rem;
+justify-content: space-between;
+cursor: pointer;
+}
+.Notification-col-1 {
+    display: flex;
+    align-items: center;
+}
+.invoice-no {
+    background: #4A8ECB;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 18px 9px;
+    justify-content: center;
+    text-align: center;
+    align-self: center !important;
+    margin: 0.5rem;
+}
+.invoice-no p{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #FFFFFF !important;
+}
+.invoice-no h5{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 10px !important;
+    color: #FFFFFF !important;
+}
+.Notification-col-1 h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 10px;
+color: #000000;
+}
+.Notification-col-1 h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 10px;
+color: #000000;
+}
+.Notification-col-1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 10px;
+    color: #5C5C5C;
+    margin-bottom: 6px;
+}
+
+
+.Notification-col-3 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5C5C5C;
+    margin: 6px;
+    justify-content: end;
+}
+.Notification-col-3 {
+    align-self: center;
+}
+.Notification-col-3 .Notification-paid{
+    background: #187A00;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    border:none;
+    padding: 8px 22px;
+}
+.Notification-col-3 .Notification-due{
+    background: #FF0000;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    border:none;
+    padding: 8px 22px;
+}
+/* ===========End================================================================================================================================================================================================================================================== */

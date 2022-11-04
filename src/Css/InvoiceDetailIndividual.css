@@ -1,0 +1,278 @@
+.Invoice-Detail-Whole{
+  display:flex;
+}
+.Invoice-detail-sidebar{
+    width:15%;
+}
+.Invoice-detail-wrapper{
+    width:85%;
+    padding:3rem;
+    padding-top:0rem;
+}
+.Office-Detials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Inner-wrapper-Invoice-content {
+    margin-top: 9rem;
+}
+.officeMain-img {
+    width: 30%;
+}
+.office-detials-inner {
+    width: 70%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+}
+.office-detials-inner div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.office-detail-inner-div{
+    margin-bottom: 46px;
+}
+.officeMain-img img {
+    width: 344.62px;
+    height: 209px;
+}
+a.office-editdetails img {
+    margin: 5px;
+}
+.second-div-invoiceDetails{
+display:block !important;
+}
+.office-roomno {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #1A69AE;
+    margin-bottom:0px;
+}
+.office-editdetails{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #1A69AE;
+}
+.second-div-invoiceDetails h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 10px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.75);
+}
+.second-div-invoiceDetails p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 10px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.65);
+}
+.InvoiceDetials-Main-inner{
+cursor:pointer;
+}
+.Invoicedetail-amount {
+    display: block !important;
+}
+.Invoicedetail-amount h5 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.65);
+}
+.Invoicedetail-amount span{
+    color:#eedc00fc;
+}
+.Invoicedetail-amount p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.Invoicedetial-btn {
+    background: #1A69AE;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 6px 33px;
+}
+.Invoice-details-main-wrapper {
+    margin-top: 2.5rem;
+}
+h3.Invoice-details-heading {
+    background: rgba(26, 105, 174, 0.25);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding: 9px 5px;
+    text-align: center;
+}
+.Invoice-months-detials {
+    margin-top: 2rem;
+}
+.Invoice-months-detials h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #5C5C5C;
+}
+.MainData-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 13px;
+    margin-bottom: 15px;
+}
+.MainData-wrapper div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MainData-wrapper div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A8A8A8;
+    margin-bottom: 0px;
+}
+.MainData-wrapper div h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.MainData-wrapper div h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3F3F3F;
+    padding-right:8px;
+    margin-top: 9px;
+}
+.MainData-wrapper div button{
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 9px 19px;
+    border: none;
+}
+.Paid-btn {
+    background: #187A00;
+    
+}
+.Overdue-second{
+    background: #FF0000;
+    padding: 9px 8px !important;
+}
+.Pending{
+    background: #F7BB0A;
+}
+.Download-btn{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #1A69AE;
+}
+.InvoiceData-MainAll-a a{
+    margin:10px;
+    margin-top:0px;
+}
+.InvoiceData-MainAll-a a:nth-child(2) {
+    background: #1A69AE;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+    color: white !important;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 6px 8px;
+}
+.InvoiceData-MainAll-a a:nth-child(3) {
+    border: 2px solid #4A8ECB;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    background-color: transparent;
+    color: #1A69AE !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-right: 2px;
+}
+
+

@@ -1,0 +1,170 @@
+
+.Building-details-wrapper .Createaccount-form form h2::after {
+    content: '';
+    position: absolute;
+    width: 72%;
+    height: 0.5px;
+    background: black;
+    top: 3rem;
+    right: 4.5rem;
+}
+.Building-details-wrapper .Createaccount-form form {
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 0rem;
+}
+.Building-details-wrapper .Createaccount-form form h2{
+margin-bottom: 20px !important;
+}
+.Building-details-wrapper .Createaccount-form form input:first-of-type{
+margin-top:0rem !important;
+}
+.Building-details-wrapper .Createaccount-form {
+  height: 97%;
+  margin-top: 19rem;
+}
+.Building-details-wrapper .Createaccount-form form input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.7rem;
+  background: #F3F3F3;
+  border-radius: 100px;
+  width: 100%;
+  height: 50px;
+  padding: 1rem;
+  border: none;
+  padding-left: 27px;
+}
+.Building-details-wrapper .Createaccount-form form button {
+  padding: 6px 20px !important;
+  margin-top: 1rem; 
+  right: 0;
+  float: right;
+}
+/* ========== Image Picker Css ===================================================================================================================================================================================================================================================================================================================================================== */
+.row p {
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 25px !important;
+color: #000000 !important;
+padding-left:14px !important;
+}
+.profile-pic {
+      width: 100px;
+      max-height: 100px;
+      display: inline-block;
+  }
+  
+  .file-upload, .file-upload-two {
+      display: none !important;
+  }
+  .circle {
+      border-radius: 100% !important;
+      overflow: hidden;
+      width: 128px;
+      height: 128px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+  
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  .p-image {
+    position: absolute;
+    top: 139px;
+    left: 4.5rem;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .upload-button {
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+  }
+  .row div, .row-two div {
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+}
+.row-two{
+  margin-top:2rem;
+}
+  .row-two p{
+    padding-left:0px !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #1A69AE !important;
+    cursor: pointer;
+  }
+
+  /* ==========End===================================================================================================================================================================================================================================================================================================================================================== */
+
+  @media only screen and (max-width: 992px) {
+    .Building-details-wrapper .Createaccount-form {
+      height: 100%;
+      margin-top: 5rem;
+  }
+    .Building-details-wrapper .Createaccount-form {
+      padding: 4rem;
+    }
+    .Building-details-wrapper .banner-image-content-createaccount {
+      position: relative;
+      top: 85px;
+    }
+   
+    }
+  @media only screen and (max-width: 767px) {
+  .Building-details-wrapper .Createaccount-form {
+    height: 97%;
+    margin-top: 2rem; 
+  }
+  .Building-details-wrapper .Createaccount-form {
+    padding: 1rem;
+}
+.Building-details-wrapper .Createaccount-form form h2::after {
+  content: '';
+  position: absolute;
+  width: 85%;
+  height: 0.5px;
+  background: black;
+  top: 2.5rem;
+  right: 1.5rem;
+}
+.Building-details-wrapper .Createaccount-form form h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.row div, .row-two div {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+.Building-details-wrapper .Createaccount-form form h2 {
+  margin-bottom: 14px !important;
+}
+.p-image {
+  position: absolute;
+  top: 128px;
+  left: 4rem;
+  color: #666666;
+}
+}

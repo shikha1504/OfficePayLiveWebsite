@@ -1,0 +1,88 @@
+.Bank-details-wrapper .Createaccount-form {
+    padding: 2rem;
+    right: 3rem;
+    height: 58%;
+    margin-top: 0rem;
+}
+
+.Bank-details-wrapper .Createaccount-form form {
+margin-top:0px !important;
+}
+.Bank-details-wrapper .Createaccount-form form input {
+    padding-left: 27px !important;
+}
+.Bank-details-wrapper .Createaccount-form form h2::after {
+    content: '';
+    position: absolute;
+    width: 62%;
+    height: 1px;
+    background: black;
+    top: 3rem;
+    right: 6rem;
+}
+.Bank-details-wrapper .Createaccount-form form button {
+padding: 6px 20px;
+background: #004077;
+border-radius: 10px;
+float: right;
+}
+.Bank-details-wrapper .banner-image-createaccount {
+    margin-bottom:0rem;
+}
+@media only screen and (max-width: 992px) {
+    .Bank-details-wrapper .Createaccount-form {
+        padding: 2rem;
+        right: 3rem;
+        height: 100% !important;
+        margin-top: 4rem;
+    }    
+.Bank-details-wrapper .banner-image-content-createaccount p {
+    font-size: 31px;
+}
+.Bank-details-wrapper .banner-image-content-createaccount h1 {
+    font-size: 65px;
+    line-height: 98px;
+}
+.Bank-details-wrapper .banner-image-content-createaccount {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 8rem;
+}
+}
+@media only screen and (max-width: 767px) {
+.Bank-details-wrapper .Createaccount-form form h2::after {
+    content: '';
+    position: absolute;
+    width: 79%;
+    height: 1px;
+    background: black;
+    top: 3rem;
+    right: 2rem;
+}
+.Bank-details-wrapper .Createaccount-form form h2 {
+    font-size: 22px;
+}
+.Bank-details-wrapper .Createaccount-form {
+    margin-top: 3rem;
+}
+.Bank-details-wrapper .Createaccount-form form button {
+    padding: 3px 17px;
+    background: #004077;
+    border-radius: 10px;
+    float: right;
+    font-size: 16px;
+    margin-top: 1.3rem;
+}
+.Bank-details-wrapper .banner-image-content-createaccount h1 {
+    font-size: 38px !important;
+    line-height: 53px !important;
+}
+.Bank-details-wrapper .banner-image-content-createaccount p {
+    font-size: 18px;
+}
+}

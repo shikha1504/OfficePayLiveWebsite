@@ -1,0 +1,181 @@
+.Building-offices-wrapper{
+  display:flex;
+  height:100%;
+}
+.Building-details-sidebar{
+width:15%;
+}
+.Building-office-main-wrapper{
+    width:85%;
+    padding:2rem;
+    padding-top:0rem;
+}
+.Building-offices-addOffices {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid #1A69AE;
+}
+.Building-offices-occupied {
+    display: flex;
+}
+.Building-offices-occupied h4{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #404040;
+    align-items: center;
+}
+.Occupied{
+    background: #4A8ECB;
+    border-radius: 5px;  
+    width: 30px;
+    height: 30px;
+    margin:15px;
+}
+.Vacant{
+    background: #C2C2C2;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin:15px;
+}
+.Building-offices-plussign p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #1A69AE;
+    cursor: pointer;
+   
+}
+.Building-offices-addWing {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+}
+.Building-offices-addWing ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.Building-offices-addWing ul li {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 8px;
+    text-align: center !important;
+    padding-right: 13px;
+    font-size:19px;
+}
+.Building-offices-addWing .active {
+    background-color: #1A69AE;
+    border-radius: 100%;
+    font-weight: 700;
+    color: white;
+    padding: 1px 9px;
+}
+.Building-offices-addWing p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Building-offices-addWing p img{
+    margin-right: 5px;
+}
+.Building-offices-floorData {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Floor-Data-inner-wrapper{
+    width: 248.05px;
+    height: 62.55px;
+    background: #4A8ECB;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color:white;
+    margin: 10px;
+    cursor: pointer;
+}
+.Floor-heading{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 10px;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.5);
+margin: 12px;
+}
+.floordata-whole-wrapper{
+    margin-top:2.5rem;
+}
+.Floor-Data-inner-wrapper-vacant{
+    background:  rgba(81, 81, 81, 0.35);
+    width: 248.05px;
+    height: 62.55px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.Floor-Data-inner-wrapper-vacant h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(0, 0, 0, 0.75);
+}
+.Floor-Data-inner-wrapper p{
+    border-radius: 5px 5px 0px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+.Floor-Data-inner-wrapper .paid{
+background: #42FF00;
+}
+.Floor-Data-inner-wrapper .pending{
+    background: #FAFF00;
+    }
+    .Floor-Data-inner-wrapper .Overdue{
+        background: #FF0000;
+        }
+.Floor-Data-inner-wrapper h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 10px;
+text-align: center;
+color: rgba(255, 255, 255, 0.75);
+}
+.Floor-Data-inner-wrapper h6:nth-child(2){
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 10px;
+text-align: center;
+color: #FFFFFF;
+}

@@ -1,0 +1,304 @@
+.InvoiceData-wrapper{
+    display: flex;
+
+}
+.InvoiceData-sidebar{
+    width:15%;
+
+}
+.InvoiceData-inner-main{
+    width:85%;
+    padding:2rem;
+    padding-top:2rem;
+}
+.InvoiceData-heading-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InvoiceData-heading-main h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #5C5C5C;
+margin-bottom:0px;
+}
+.InvoiceData-heading-main a{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-decoration-line: underline !important;
+color: #1A69AE !important;
+cursor: pointer;
+}
+.InvoiceData-form-1-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+.InvoiceData-form-1-wrapper {
+    padding: 1.5rem;
+}
+.InvoiceData-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding-bottom: 13px;
+}
+.InvoiceData-form-header img{
+width: 185px;
+height: 45px;
+}
+.Header-right-side ul{
+    list-style:none;
+    margin-bottom:0px;
+ }
+.Header-right-side ul li {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 17px !important;
+    text-align: right;
+    color: #000000;
+    line-height: 34px;
+}
+.Header-left-side h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000000;
+    margin-top:15px;
+}
+.Header-left-side {
+    width: 21%;
+}
+.InvoiceData-BillDetails-table{
+width:100%;
+}
+td.address-col {
+    width: 70%;
+}
+td.last-col {
+    text-align: center;
+}
+td.address-col p {
+    width: 25%;
+    margin-bottom:10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.75);
+}
+td.common-td{
+    padding-bottom:13px;
+}
+td{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+th.table-header{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 37px;
+color: #000000;
+}
+.Bill-Details {
+    margin-top: 1rem;
+}
+.Bill-Details p{
+margin-bottom:0px;
+}
+table.table-total {
+    margin-top: 1rem;
+    width:100%;
+}
+.description-col {
+    width: 54% !important;
+}
+.table-two-thead{
+border-top:1px solid rgba(0, 0, 0, 0.25);
+border-bottom:1px solid rgba(0, 0, 0, 0.25);
+
+}
+.table-two-thead th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.table-total td{
+    width:18%;
+}
+.table-two-thead th{
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 17px !important;
+line-height: 22px !important;
+color: #000000 !important;
+}
+.table-total td{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.paddingtop{
+    padding-top:3rem;
+}
+table.Final-total-table {
+    margin-top: 8rem;
+    width: 100%;
+}
+.Final-total-tr{
+    border-top:1px solid rgba(0, 0, 0, 0.25);
+}
+
+.Final-total-tr td{
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 17px !important;
+    line-height: 22px !important;
+    color: #000000 !important;
+}
+
+.Final-total-tr td:nth-child(2){
+    text-align: right;
+
+}
+.table-total td,.table-total th{
+  text-align: right;  
+}
+
+.first-col-secondtable{
+text-align: left !important;
+}
+.Final-total-tr td{
+    padding-top:17px;
+}
+.InvoiceData-BankDetails h5{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+color: #000000;
+}
+.InvoiceData-BankDetails ul{
+  list-style: none;  
+  padding-left:0px;
+}
+.InvoiceData-BankDetails ul li{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #000000;
+}
+.InvoiceData-BankDetails {
+    margin-top: 2rem;
+}
+.form-2-inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+.form-2-inner-wrapper ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+.form-2-inner-wrapper{
+    background: #FFFFFF;
+box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.form-2-inner-wrapper p{
+    margin-bottom:0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.form-2-inner-wrapper .second-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #5C5C5C;
+}
+.form-2-inner-wrapper div:nth-child(1) {
+    display: flex;
+}
+.form-2-inner-wrapper .Download-li{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #1A69AE;
+}
+.form-2-inner-wrapper .Delete-li{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #606060;
+}
+.form-2-inner-wrapper div:nth-child(2){
+align-self: center;
+align-items: center;
+}
+.Download-invoice-btn button {
+    background: #1A69AE;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 13px 19px;
+    border: none;
+}
+.Download-invoice-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top:3rem;
+}

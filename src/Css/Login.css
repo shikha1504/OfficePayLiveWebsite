@@ -1,0 +1,84 @@
+.Login-wrapper .forget-password {
+    margin-top: 1.7rem;
+    text-align: end;
+}
+.Login-wrapper .forget-password a {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #000000;
+}
+.Login-wrapper .Createaccount-form form button {
+margin-top: 2rem;
+}
+.Login-wrapper .Createaccount-form {
+    padding: 2rem;
+    right: 3rem;
+    width: 37.6%;
+    margin: 4rem;
+    height: 72%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .Login-wrapper .Createaccount-form .create-btn-wrapper button {
+    padding: 13px 65px;
+}
+.Login-wrapper .Createaccount-form {
+    padding: 2rem;
+    right: 1rem;
+    width: 48.6%;
+    margin: 2rem;
+    height: 75%;
+}
+}
+@media only screen and (max-width: 992px) {
+.Login-wrapper .Createaccount-form {
+    padding: 4rem !important;
+    right: 3rem !important;
+    width: 80.6% !important;
+    margin:auto !important;
+    height: 72% !important;
+    margin-top: 6rem !important;
+  }
+  .Login-wrapper .Createaccount-form .create-btn-wrapper button {
+    padding: 13px 86px;
+}
+}
+@media only screen and (max-width: 767px) {
+    .Login-wrapper .Createaccount-form form button {
+    background: #004077;
+    border-radius: 10px;
+    padding: 0.7rem 7rem;
+}
+.Login-wrapper .Createaccount-form {
+    padding: 1rem !important;
+    right: 1rem !important;
+    width: 90.6% !important;
+    margin: auto !important;
+    height: 72% !important;
+    margin-top: 2rem !important;
+}
+.Login-wrapper .form-social-media p::after, .Login-wrapper .form-social-media p::before {
+    content: '';
+    background-color: #000000;
+    height: 1px;
+    width: 23%;
+    position: absolute;
+    top: 13px;
+}
+.Login-wrapper .Createaccount-form .create-btn-wrapper button {
+    background: #F3F3F3;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 36px;
+    color: #1A69AE;
+    border: none;
+    padding: 8px 32px;
+}
+}

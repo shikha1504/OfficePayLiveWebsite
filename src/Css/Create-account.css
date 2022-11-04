@@ -1,0 +1,450 @@
+/* =========Banner============================================================================================================================================================================================================================================================================================================================ */
+.banner-image-createaccount{
+    top: 0;
+    background-image: url('../Images/contact-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-position: inherit;
+    width: 100%;
+    height: 130vh;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+
+.banner-image-content-createaccount {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 4rem;
+    width: 39%;
+}
+.banner-image-content-createaccount h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+
+}
+.banner-image-content-createaccount p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    color: #5A5A5A;
+    margin-top: 13px;
+} 
+.banner-image-content-createaccount button {
+    background: transparent;
+    border: none;
+    margin-top: 3rem;
+}
+.Createaccount-form form input { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.7rem;
+    background: #F3F3F3;
+    border-radius: 100px;
+    width:100%;  
+    height: 50px;
+    padding: 1rem;
+    border: none;
+    padding-left:60px;
+}
+.Createaccount-form form textarea{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    background: #F3F3F3;
+    border-radius: 25px;
+    width:100%;  
+    height: 179px;
+    padding: 1rem;
+    border: none;
+    resize: none;
+}
+
+.Createaccount-form form input:focus , .Createaccount-form form textarea:focus{
+    outline: none;
+    border:none;
+}
+.Createaccount-form form input::placeholder , .Createaccount-form form textarea::placeholder{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #818181;
+}
+.create-btn-wrapper{
+position: relative;
+}
+.Createaccount-form button:nth-child(1) {
+    left: 22px;
+}
+.Createaccount-form button:nth-child(2){
+    right:16px;
+}
+.Createaccount-form .create-btn-wrapper button{
+    background: #F3F3F3;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1A69AE;
+    border:none;
+    padding: 16px 83px; 
+    position: absolute; 
+}
+.Createaccount-form form {
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 6rem;
+}
+.create-btn-active {
+    background: #1A69AE !important;
+    color: #F3F3F3 !important;
+    z-index: 9999;
+}
+.input-wrapper{
+    position:relative;
+}
+.Createaccount-form form svg {
+    position: absolute;
+    left: 15px;
+    top: 7px;
+    padding: 10px 10px;
+    font-size: 17px;
+    color: #1A69AE;
+}
+.svg-inline--fa.fa-phone{
+transform: rotate(133deg);
+} 
+.Createaccount-form {
+    padding: 2rem;
+    right: 3rem;
+    width: 37.6%;
+    margin: 4rem;
+    height: 80%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10rem;
+}
+.Createaccount-form form h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1A69AE;
+    position: relative;
+    margin-bottom: 3.8rem;
+}
+.Createaccount-form form h2::after {
+    content: '';
+    position: absolute;
+    width: 52%;
+    height: 1px;
+    background: black;
+    top: 3rem;
+    right: 7rem;
+}
+.Createaccount-form form h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #000000;
+padding-left: 2rem;
+}
+.Createaccount-form form h5::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    width: 12%;
+    background-color: #4A8ECB;
+    top: 2rem;
+    left: 37px;
+}
+.Createaccount-form form p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3D3D3D;
+    text-align: left;
+    padding-left: 33px;
+    margin-top: 21px;
+}
+.Createaccount-form form button{
+background: #004077;
+border-radius: 10px;
+padding: 0.7rem 9rem;
+color:#FFFFFF;
+margin: auto;
+border:none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+margin-top: 4.3rem;
+}
+p.already-login-p{
+font-weight: 400 !important; 
+font-size: 12px !important;
+line-height: 24px !important;
+text-align: center !important;
+color: #494949 !important;
+padding-left: 0px !important;
+}
+p.already-login-p a{
+    color:#1A69AE !important;
+    font-weight: 600;
+}
+.form-social-media p{
+font-weight: 400  !important;
+font-size: 18px  !important;
+line-height: 25px  !important;
+text-align: center !important;
+color: #000000;
+}
+.form-social-media p{
+    position: relative;
+    padding-left:0px !important;
+}
+.form-social-media p::after,.form-social-media p::before {
+    content: '';
+    background-color: #000000;
+    height: 1px;
+    width: 34%;
+    position: absolute;
+    top:13px;
+}
+.form-social-media p::before{
+left:0;
+}
+.form-social-media p::after{
+right:0;
+}
+.form-social-media ul{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+padding-left:0px !important;
+}
+/* =========End============================================================================================================================================================================================================================================================================================================================ */
+
+/* =========Responsive============================================================================================================================================================================================================================================================================================================================ */
+
+@media only screen and (max-width: 1024px) {
+.banner-image-createaccount {
+    top: 0;
+    background-image: url('../Images/contact-banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-position: inherit;
+    width: 100%;
+    height: 68vh;
+    justify-content: space-between;
+}
+.Createaccount-form {
+    padding: 2rem;
+    right: 0rem;
+    width: 48.6%;
+    margin: 2rem;
+    height: 80%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5rem;
+}
+.Createaccount-form .create-btn-wrapper button {
+    padding: 13px 64px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .banner-image-createaccount {
+        top: 0;
+        background-image: url('../Images/Contact-banner-mobile.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: inherit;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .banner-image-content-createaccount {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0rem;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+    .Createaccount-form .create-btn-wrapper button {
+        padding: 17px 86px;
+    }
+  .banner-image-content-createaccount p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 53px;
+    color: #5A5A5A;
+    margin-top: 13px;
+}
+
+.banner-image-content-createaccount h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 79px;
+}
+  .Createaccount-form {
+    padding: 2rem;
+    right: 3rem;
+    width: 74%;
+    margin: auto;
+    height: 70%;
+    background: #FFFFFF;
+    box-shadow: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+} 
+  .Createaccount-form form h2::after {
+      content: '';
+      position: absolute;
+      width: 62%;
+      height: 1px;
+      background: black;
+      top: 3rem;
+      right: 4rem;
+  } 
+}
+@media only screen and (max-width: 767px) { 
+    .banner-image-createaccount {
+        top: 0;
+        background-image: url('../Images/Contact-banner-mobile.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        background-position: inherit;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .banner-image-content-createaccount {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: 0rem;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+    .banner-image-content-createaccount h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 53px;
+    } 
+    .banner-image-content-createaccount p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #5A5A5A;
+        margin-top: 13px;
+    }
+    .Createaccount-form {
+        padding: 1rem;
+        right: 3rem;
+        width: 90%;
+        margin: 0;
+        height: 70%;
+        background: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 2rem;
+    } 
+    .Createaccount-form form h2::after {
+        content: '';
+        position: absolute;
+        width: 62%;
+        height: 1px;
+        background: black;
+        top: 3rem;
+        right: 4rem;
+    } 
+    .Createaccount-form .create-btn-wrapper button {
+        background: #F3F3F3;
+        border-radius: 100px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 36px;
+        color: #1A69AE;
+        border: none;
+        padding: 5px 33px;
+        position: absolute;
+    }
+    .Createaccount-form form button {
+        padding: 0.7rem 6rem;
+    }
+    .form-social-media p::after, .form-social-media p::before {
+        content: '';
+        background-color: #000000;
+        height: 1px;
+        width: 23%;
+        position: absolute;
+        top: 13px;
+    }
+    .Createaccount-form form h5 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-left: 2rem;
+        text-align: left;
+    }
+  
+}
+/* =========End============================================================================================================================================================================================================================================================================================================================ */

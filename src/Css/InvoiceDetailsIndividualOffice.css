@@ -1,0 +1,50 @@
+.office-dashboard-contact-button {
+    width: 234px;
+    height: 35px;
+    background: #98BAD8;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    justify-content: center;
+    text-decoration: none;
+}
+.office-Invoicedetail-amount h5 span{
+color:#FF0000;
+}
+.InvoiceDetail-pending-amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.Office-InvoiceData-MainAll{
+width: 159px  !important;
+height: 34px !important;
+background: #1A69AE !important;
+border: 2px solid #1A69AE !important;
+box-sizing: border-box !important;
+border-radius: 25px !important;
+display: flex !important;
+justify-content: center !important;
+align-items: end !important;
+font-family: 'Poppins' !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 10px !important;
+display: flex !important;
+align-items: center !important;
+color: #FFFFFF !important;
+text-decoration: none;
+}
