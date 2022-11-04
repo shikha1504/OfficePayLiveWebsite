@@ -99,8 +99,8 @@ function Login() {
           localStorage.setItem("access_token", apiCallbackRepsonse.access_token);
           localStorage.setItem("user_role",userData.role_id)
           localStorage.setItem("user_id",userData.id)
-          navigate("/OfficeDetails");  
-       //   navigate("/DashBoardOffice");         
+        
+          navigate("/DashBoardOffice");         
         
       } else if (apiCallbackRepsonse != null && apiCallbackRepsonse.status == 201) {
          console.log("response status :", "--201");
