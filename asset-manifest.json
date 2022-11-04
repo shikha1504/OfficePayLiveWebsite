@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/OfficePayLiveWebsite/static/css/main.032c8387.css",
+    "main.js": "/OfficePayLiveWebsite/static/js/main.58c71de5.js",
+    "static/js/787.26c3a9e6.chunk.js": "/OfficePayLiveWebsite/static/js/787.26c3a9e6.chunk.js",
+    "static/media/Office Image-3.png": "/OfficePayLiveWebsite/static/media/Office Image-3.b0d9a3b7b70d6a9eceb2.png",
+    "static/media/Office Image-2.png": "/OfficePayLiveWebsite/static/media/Office Image-2.5a3e720c99fdb06b3b02.png",
+    "static/media/contact-banner.png": "/OfficePayLiveWebsite/static/media/contact-banner.71dbe1af2b1885b13034.png",
+    "static/media/About-Banner-After.png": "/OfficePayLiveWebsite/static/media/About-Banner-After.f4e750b763ce12cf7bd0.png",
+    "static/media/Mobile-image-three.png": "/OfficePayLiveWebsite/static/media/Mobile-image-three.4070a9e7e1c6ae0dcf78.png",
+    "static/media/Building-image2.png": "/OfficePayLiveWebsite/static/media/Building-image2.08b1bd7a0236dfb381ec.png",
+    "static/media/Mobile-image-two.png": "/OfficePayLiveWebsite/static/media/Mobile-image-two.520ed6ef0c93d0f3ba71.png",
+    "static/media/Banner-Mobile-image.png": "/OfficePayLiveWebsite/static/media/Banner-Mobile-image.8f2df59f08d76e0eedbd.png",
+    "static/media/Building-image.png": "/OfficePayLiveWebsite/static/media/Building-image.fe74955ccc8927b38bef.png",
+    "static/media/Contact-banner-mobile.png": "/OfficePayLiveWebsite/static/media/Contact-banner-mobile.c03d9d09d4b5542fd5fe.png",
+    "static/media/PopupImage.png": "/OfficePayLiveWebsite/static/media/PopupImage.60512bbe7570e40a41de.png",
+    "static/media/Office Pay - Logo.png": "/OfficePayLiveWebsite/static/media/Office Pay - Logo.a4a757b5103f884118cd.png",
+    "index.html": "/OfficePayLiveWebsite/index.html",
+    "main.032c8387.css.map": "/OfficePayLiveWebsite/static/css/main.032c8387.css.map",
+    "main.58c71de5.js.map": "/OfficePayLiveWebsite/static/js/main.58c71de5.js.map",
+    "787.26c3a9e6.chunk.js.map": "/OfficePayLiveWebsite/static/js/787.26c3a9e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.032c8387.css",
+    "static/js/main.58c71de5.js"
+  ]
+}
